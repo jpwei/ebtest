@@ -1,0 +1,10 @@
+#!/bin/bash
+#yum install -y httpd
+if [ -f /var/www/planetart/public_site/.nodeploy ]
+then
+    rm -rf /var/www/planetart/public_site
+    mkdir /var/www/planetart/public_site
+    chown -R wwwuser:webadmin /var/www/planetart/public_site
+fi
+
+
