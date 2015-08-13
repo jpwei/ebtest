@@ -5,14 +5,14 @@ files:
     destination: /var/www/test/
 permissions:
   - object: /var/www/test
-    owner: wwwuser
-    group: webadmin
+    owner: ec2-user
+    group: ec2-user
     mode: 744
     type:
       - file
   - object: /var/www/test
-    owner: wwwuser
-    group: webadmin
+    owner: ec2-user
+    group: ec2-user
     mode: 744
     type:
       - directory
